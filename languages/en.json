@@ -1,0 +1,17 @@
+{
+    "nav_home": "Home",
+    "nav_about": "About",
+    "nav_photos": "Photos",
+    "nav_contact": "Contact",
+    "city": "Buenos Aires, Argentina", 
+    "title_about": "About", 
+    "title_contact": "Contact",
+    "text_about": "I am Pedro Meireles Damasceno, born in Eunápolis, Bahia, and currently studying medicine in Buenos Aires. Passionate about art, I immerse myself in photography and cinema, in addition to nurturing my passion for music since I was young. These interests not only enrich my life but also shape my holistic view of medicine, inspiring me to integrate art and science into my future practice. I am excited about the prospect of exploring how these passions interconnect, enriching both my personal and professional life.",
+    "title_photos": "Photos",
+    "contact_btn": "Contact", 
+    "placeholder_message": "Hi, I've seen your portfolio...",
+    "label_message": "Message", 
+    "email_btn": "Send email",
+    "whatsapp_btn": "Send message",
+    "instagram_btn": "Send inbox"
+}

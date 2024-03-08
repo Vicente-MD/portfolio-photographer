@@ -1,0 +1,17 @@
+{
+    "nav_home": "Inicio",
+    "nav_about": "Acerca",
+    "nav_photos": "Fotos",
+    "nav_contact": "Contacto",
+    "city": "Buenos Aires, Argentina",
+    "title_about": "Acerca de",
+    "title_contact": "Contacto",
+    "text_about": "Soy Pedro Meireles Damasceno, nacido en Eunápolis, Bahía, y actualmente estudio medicina en Buenos Aires. Apasionado por el arte, me sumerjo en la fotografía y el cine, además de nutrir mi pasión por la música desde joven. Estos intereses no solo enriquecen mi vida sino que también moldean mi visión holística de la medicina, inspirándome a integrar el arte y la ciencia en mi práctica futura. Estoy emocionado por la perspectiva de explorar cómo estas pasiones se interconectan, enriqueciendo tanto mi vida personal como profesional.",
+    "title_photos": "Fotos",
+    "contact_btn": "Contacto",
+    "placeholder_message": "Hola, he visto tu portafolio...",
+    "label_message": "Mensaje",
+    "email_btn": "Enviar correo",
+    "whatsapp_btn": "Enviar mensaje",
+    "instagram_btn": "Enviar inbox"
+}

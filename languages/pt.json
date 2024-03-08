@@ -1,0 +1,17 @@
+{
+    "nav_home": "Home",
+    "nav_about": "Sobre",
+    "nav_photos": "Fotos",
+    "nav_contact": "Contato",
+    "city": "Buenos Aires, Argentina",
+    "title_about": "Sobre mim",
+    "title_contact": "Contato",
+    "text_about": "Sou Pedro Meireles Damasceno, natural de Eunápolis, Bahia, e atualmente estudo medicina em Buenos Aires. Apaixonado por arte, mergulho na fotografia e no cinema, além de cultivar minha paixão pela música desde jovem. Esses interesses não só enriquecem minha vida, mas também moldam minha visão holística da medicina, inspirando-me a integrar arte e ciência em minha futura prática. Estou animado com a perspectiva de explorar como essas paixões se interligam, enriquecendo tanto minha vida pessoal quanto profissional.",
+    "contact_btn": "Entrar em contato",
+    "title_photos": "Fotos", 
+    "placeholder_message": "Escreva sua mensagem aqui...", 
+    "label_message": "Mensagem",
+    "email_btn": "Enviar email",
+    "whatsapp_btn": "Enviar mensagem",
+    "instagram_btn": "Enviar inbox"
+}

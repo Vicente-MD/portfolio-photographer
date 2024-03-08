@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Damasceno</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Inika:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="assets/img/svg/photo-icon.svg">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg mb-4">
+        <div class="container-fluid justify-content-center">
+            <div class="d-flex justify-content-center flex-grow-1">
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item me-4">
+                        <a class="nav-link" href="#home" data-i18n="nav_home"></a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link" href="#about" data-i18n="nav_about"></a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link" href="#photos" data-i18n="nav_photos"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-i18n="nav_contact"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="language-selector" class="ms-auto">
+                <div class="dropdown">
+                    <button id="btn-lang" class="btn btn-secondary dropdown-toggle" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Choose language
+                    </button>
+                    <div class="dropdown-menu" id="dropdown-lang" style="max-width: 100px; min-width: 50px;">
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('en')"><img class="icon-start"
+                                src="assets/img/svg/flag-usa-solid-svgrepo-com.svg" alt="English"></a>
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('es')"><img class="icon-start"
+                                src="assets/img/svg/flag-for-spain-svgrepo-com.svg" alt="Español"></a>
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('pt')"><img class="icon-start"
+                                src="assets/img/svg/brazil-flag-svgrepo-com.svg" alt="Português"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div style="max-width: 100vw; margin-top: 10vh;">
+
+        <div class="sidebar-language border row" id="sidebar">
+            <div class="py-2 sidebar-btn col-4 mb-1" onclick="toggleSidebar()"><img id="language-logo" src="assets/img/svg/globe-solid.svg" alt="Language"></div>
+            <div class="d-none col" id="sidebarContent">
+                <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                    <div id="language-selector-sm">
+                        <div class="dropdown">
+                            <button id="btn-lang-sm" class="btn btn-secondary dropdown-toggle" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Choose language
+                            </button>
+                            <div class="dropdown-menu" id="dropdown-lang" style="max-width: 100px; min-width: 50px;">
+                                <a class="dropdown-item" href="#" onclick="changeLanguage('en')"><img class="icon-start"
+                                        src="assets/img/svg/flag-usa-solid-svgrepo-com.svg" alt="English"></a>
+                                <a class="dropdown-item" href="#" onclick="changeLanguage('es')"><img class="icon-start"
+                                        src="assets/img/svg/flag-for-spain-svgrepo-com.svg" alt="Español"></a>
+                                <a class="dropdown-item" href="#" onclick="changeLanguage('pt')"><img class="icon-start"
+                                        src="assets/img/svg/brazil-flag-svgrepo-com.svg" alt="Português"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="home" class="row">
+            <div class="col-3 d-flex align-items-center justify-content-center flex-column" id="box-name">
+                <h1 id="name" class="text-decoration-underline">Pedro Damasceno</h1>
+                <h3 id="city" class="pb-5">
+                    <img class="icon-start" style="fill: white;" src="assets/img/svg/pin.svg" alt="Pin">
+                    <span data-i18n="city"></span>
+                </h3>
+                <a href="#contact" class="btn custom-btn text-decoration-none text-reset" id="contact-btn"
+                    data-i18n="contact_btn">Contact</a>
+
+            </div>
+            <div class="col-9">
+                <img class="slide-in" src="assets/img/main-img.jpg" id="main-image">
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="about" class="d-flex justify-content-center align-items-center">
+                <div class="row d-flex flex-row">
+                    <div class="col">
+                        <img src="assets/img/profile.jpeg" id="profile-image">
+                    </div>
+                    <div class="col d-flex justify-content-around flex-column">
+                        <h1 data-i18n="title_about" class="text-center title-section"></h1>
+                        <p data-i18n="text_about" id="text-about" class="mt-5"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="photos">
+                <h1 data-i18n="title_photos" id="title-photos" class="text-start title-section"></h1>
+                <div class="d-flex align-items-center flex-column">
+                    <div>
+                        <img src="assets/img/baby-carriage.jpg" id="baby-image">
+                    </div>
+                    <div>
+                        <img src="assets/img/couple-celebrating.jpg" id="couple-celebrating-image">
+                    </div>
+                    <div>
+                        <img src="assets/img/girl-square.jpg" id="girl-square-image">
+                    </div>
+                    <div>
+                        <img src="assets/img/grandpa.jpeg" id="grandpa-image">
+                    </div>
+                    <div>
+                        <img src="assets/img/man-celebrating.jpg" id="man-celebrating-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="row">
+            <div class="col-9">
+                <img src="assets/img/girl-listening-music.jpg" id="final-image">
+            </div>
+
+            <div class="col-3 d-flex align-items-center flex-column" id="box-inputs">
+                <h1 data-i18n="title_contact" id="title-contact"></h1>
+
+                <div class="d-flex align-items-center justify-content-center">
+                    <form id="inputs-contact" action="mailto:pedrodbarcelo@gmail.com"
+                        class="d-flex justify-content-around align-items-center flex-column">
+                        <div class="form-group">
+                            <label data-i18n="label_message" for="message"></label>
+                            <textarea name="message" rows="7" class="form-control" data-i18n="placeholder_message"
+                                id="message"></textarea>
+                        </div>
+
+                        <div id="buttons-submit" class="d-flex justify-content-around align-items-center flex-column">
+                            <input name="subject" value="Olá, vi seu portfólio" type="hidden" />
+                            <button class="btn custom-btn submit-btn" type="submit" id="button-submit">
+                                <img class="icon-start" src="assets/img/svg/envelope-regular.svg" alt="E-mail">
+                                <span data-i18n="email_btn"></span>
+                            </button>
+                            <a class="btn custom-btn submit-btn" href="https://wa.me/557381638037" id="whatsapp-link">
+                                <img class="icon-start" src="assets/img/svg/whatsapp.svg" alt="Whatsapp">
+                                <span data-i18n="whatsapp_btn"></span>
+                            </a>
+
+                            <button class="btn custom-btn submit-btn">
+                                <img class="icon-start" src="assets/img/svg/instagram.svg" alt="Instagram">
+                                <span data-i18n="instagram_btn"></span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center mb-2">
+                    <a href="https://www.instagram.com/foco.momentaneo/" class="text-reset">
+                        <img class="footer-icon" src="assets/img/svg/instagram-white.svg" alt="Instagram">
+                    </a>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <p class="text-reset trademark mt-3">&copy; 2024, Pedro Damasceno</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
